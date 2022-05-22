@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Андрей Анпилогов](https://up.htmlacademy.ru/htmlcss/34/user/2075847).
-* Наставник: `Дмитрий Рябинин` (https://htmlacademy.ru/profile/haschish).
+* Наставник: [Дмитрий Рябинин](https://up.htmlacademy.ru/htmlcss/34/user/63289).
 
 ---
 
