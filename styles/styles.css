@@ -90,11 +90,19 @@
     text-transform: uppercase;
   }
 
-  .advantages-first {
+
+  .advantages-list {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    background-color: #82B3D3;
     list-style-type: none;
+  }
+
+  .advantages-first {
+    background-color: #82B3D3;
+  }
+
+  .advantages-second {
+    background-color: #82B3D3;
   }
