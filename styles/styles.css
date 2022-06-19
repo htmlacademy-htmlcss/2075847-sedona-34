@@ -81,9 +81,10 @@
     font-size: 22px;
     line-height: 26px;
     text-align: center;
+    text-transform: none;
   }
 
-  .advantages {
+  .advantages-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -99,10 +100,54 @@
     list-style-type: none;
   }
 
+  .benefits-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .benefits-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
   .advantages-first {
     background-color: #82B3D3;
+    margin: 0 auto;
+    color: #ffffff;
   }
 
   .advantages-second {
     background-color: #82B3D3;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+
+  .advantages-third {
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .advantages-fourth {
+    background-color: rgba(131, 179, 211, 0.2);
+  }
+
+  .advantages-fifth {
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .benefits-first {
+    background-color:rgba(131, 179, 211, 0.12);
+    background-image: url("../images/house.svg");
+  }
+
+  .benefits-second {
+
+  }
+
+  .benefits-third {
+    background-color: rgba(131, 179, 211, 0.12);
   }
