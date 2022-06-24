@@ -1,0 +1,363 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("fonts/pt-sans-italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+  }
+
+ .navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+ }
+
+ .navigation-list {
+  margin: 0;
+  padding: 0;
+ }
+
+ .icon {
+  margin-left: 70px;
+ }
+
+  .navigation-item {
+    font-weight: 700;
+    list-style-type: none;
+    width: 390px;
+    margin-left: 30px;
+  }
+
+  .navigation-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .navigation-user {
+    font-weight: 700;
+    color: #000000;
+    list-style-type: none;
+    width: 264px;
+    margin-left: auto;
+  }
+
+  .navigation-user-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #756157;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .main-container {
+    flex-grow: 1;
+  }
+
+  .page-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .subject {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: none;
+  }
+
+  .advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+
+  .advantages-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    list-style-type: none;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .block1 {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+  }
+
+  .block2 {
+    display: flex;
+    width: 1200px;
+  }
+
+  .block3 {
+    display: flex;
+    width: 1200px;
+  }
+
+  .benefits-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  .benefits-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .advantages-first {
+    width: 400px;
+    height: 384px;
+    background-color: #82B3D3;
+    color: #ffffff;
+  }
+
+  .advantages-second {
+    width: 400px;
+    height: 384px;
+    background-color: #82B3D3;
+    color: #ffffff;
+  }
+
+  .advantages-third {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .advantages-fourth {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.2);
+  }
+
+  .advantages-fifth {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .benefits-first {
+    background-image: url("../images/house.svg");
+    background-color:rgba(131, 179, 211, 0.12);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 384px;
+  }
+
+  .benefits-second {
+    background-image: url("../images/food.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 384px;
+  }
+
+  .benefits-third {
+    background-image: url("../images/box.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 384px;
+  }
+
+  .benefits-third {
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .appointment {
+    width: 1200px;
+    height: 417px;
+    text-align: center;
+  }
+
+  .appointment-caption {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .appointment-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .appointment-link {
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 574px;
+    height: 60px;
+    background-color: #756157;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+  }
+
+  .newsletter {
+    color: #ffffff;
+    width: 1200px;
+    height: 411px;
+    text-align: center;
+    background-image: url(../images/background.jpg);
+  }
+
+  .newsletter-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .newsletter-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .field {
+    width: 600px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F2F2F2;
+  }
+
+  .newsletter-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    background: #82B3D3;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+  }
+
+  .footer-list {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer-item {
+    list-style-type: none;
+  }
+
+  .footer-social {
+    display: flex;
+    width: 142px;
+    margin-left: 70px;
+  }
+
+  .footer-item {
+    padding: 0 10px;
+  }
+
+  .footer-contacts {
+    display: block;
+    margin: auto;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .contacts-phone {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .footer-htmlacademy {
+    margin-left: auto;
+    margin-right: 70px;
+    width: 115px;
+    list-style-type: none;
+  }
