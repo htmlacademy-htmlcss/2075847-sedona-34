@@ -30,17 +30,42 @@
     font-display: swap;
   }
 
+  html {
+    height: 100%;
+  }
+
   body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 26px;
     background-color: #ffffff;
     color: #000000;
+    margin: 0;
   }
+
+ .navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+ }
+
+ .navigation-list {
+  margin: 0;
+  padding: 0;
+ }
+
+ .icon {
+  margin-left: 70px;
+ }
 
   .navigation-item {
     font-weight: 700;
     list-style-type: none;
+    width: 390px;
+    margin-left: 30px;
   }
 
   .navigation-link {
@@ -52,6 +77,8 @@
     font-weight: 700;
     color: #000000;
     list-style-type: none;
+    width: 264px;
+    margin-left: auto;
   }
 
   .navigation-user-link {
@@ -66,6 +93,15 @@
     padding-top: 9px;
     padding-bottom: 8px;
     text-transform: uppercase;
+  }
+
+  .main-container {
+    flex-grow: 1;
+  }
+
+  .page-container {
+    width: 1200px;
+    margin: 0 auto;
   }
 
   .subject {
