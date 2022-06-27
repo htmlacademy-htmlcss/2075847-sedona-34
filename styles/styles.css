@@ -104,6 +104,12 @@
     margin: 0 auto;
   }
 
+  .logo-container {
+    background-image: url(../images/index-background.jpg);
+    background-repeat: no-repeat;
+    height: 485px;
+  }
+
   .logo {
     display: block;
     margin: 0 auto;
