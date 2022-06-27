@@ -104,6 +104,12 @@
     margin: 0 auto;
   }
 
+  .logo-container {
+    background-image: url(../images/index-background.jpg);
+    background-repeat: no-repeat;
+    height: 485px;
+  }
+
   .logo {
     display: block;
     margin: 0 auto;
@@ -139,38 +145,11 @@
     line-height: 21px;
     text-align: center;
     list-style-type: none;
-    width: 400px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .block1 {
     display: flex;
     width: 1200px;
+    margin: 0;
+    padding: 0;
     flex-wrap: wrap;
-  }
-
-  .block2 {
-    display: flex;
-    width: 1200px;
-  }
-
-  .block3 {
-    display: flex;
-    width: 1200px;
-  }
-
-  .benefits-list {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    list-style-type: none;
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
   }
 
   .benefits-title {
@@ -233,12 +212,9 @@
     background-image: url("../images/box.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(131, 179, 211, 0.12);
     width: 400px;
     height: 384px;
-  }
-
-  .benefits-third {
-    background-color: rgba(131, 179, 211, 0.12);
   }
 
   .appointment {
@@ -320,43 +296,43 @@
     height: 60px;
   }
 
+  .footer-container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+  }
+
   .footer-list {
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-  }
-
-  .footer-item {
-    list-style-type: none;
-  }
-
-  .footer-social {
-    display: flex;
     width: 142px;
     margin-left: 70px;
   }
 
   .footer-item {
+    list-style-type: none;
+    width: 142px;
     padding: 0 10px;
   }
 
   .footer-contacts {
-    display: block;
-    margin: auto;
+    width: 720px;
     list-style-type: none;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .contacts-phone {
+    margin: 0 auto;
     color: #000000;
     text-decoration: none;
   }
 
   .footer-htmlacademy {
-    margin-left: auto;
     margin-right: 70px;
     width: 115px;
     list-style-type: none;
