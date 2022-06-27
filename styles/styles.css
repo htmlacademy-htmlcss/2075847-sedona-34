@@ -139,38 +139,11 @@
     line-height: 21px;
     text-align: center;
     list-style-type: none;
-    width: 400px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .block1 {
     display: flex;
     width: 1200px;
+    margin: 0;
+    padding: 0;
     flex-wrap: wrap;
-  }
-
-  .block2 {
-    display: flex;
-    width: 1200px;
-  }
-
-  .block3 {
-    display: flex;
-    width: 1200px;
-  }
-
-  .benefits-list {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    list-style-type: none;
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
   }
 
   .benefits-title {
@@ -233,12 +206,9 @@
     background-image: url("../images/box.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(131, 179, 211, 0.12);
     width: 400px;
     height: 384px;
-  }
-
-  .benefits-third {
-    background-color: rgba(131, 179, 211, 0.12);
   }
 
   .appointment {
