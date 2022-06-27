@@ -296,43 +296,43 @@
     height: 60px;
   }
 
+  .footer-container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+  }
+
   .footer-list {
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-  }
-
-  .footer-item {
-    list-style-type: none;
-  }
-
-  .footer-social {
-    display: flex;
     width: 142px;
     margin-left: 70px;
   }
 
   .footer-item {
+    list-style-type: none;
+    width: 142px;
     padding: 0 10px;
   }
 
   .footer-contacts {
-    display: block;
-    margin: auto;
+    width: 720px;
     list-style-type: none;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .contacts-phone {
+    margin: 0 auto;
     color: #000000;
     text-decoration: none;
   }
 
   .footer-htmlacademy {
-    margin-left: auto;
     margin-right: 70px;
     width: 115px;
     list-style-type: none;
