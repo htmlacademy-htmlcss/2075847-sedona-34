@@ -55,7 +55,7 @@
  .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  width: 390px;
+  width: 490px;
   margin: 0;
   margin-left: 30px;
   padding: 0;
@@ -84,19 +84,26 @@
     font-weight: 700;
     color: #000000;
     list-style-type: none;
-    width: 264px;
+    width: 300px;
     margin: 0;
+    margin-right: 70px;
     padding: 0;
     margin-left: auto;
-    margin-right: 70px;
   }
 
-  .navigation-user .navigation-link {
+  .navigation-user-item {
+  }
+
+  .navigation-user-link {
+    display: block;
+    padding: 20px 17px;
+    text-decoration: none;
+    color: #000000;
     min-width: 18px;
     min-height: 18px;
   }
 
-  .navigation-user-link {
+  .navigation-bottom-link {
     display: block;
     width: 130px;
     justify-content: center;
@@ -107,10 +114,8 @@
     border-radius: 4px;
     color: #ffffff;
     text-decoration: none;
-    margin: 14px 0 14px 20px;
-    padding: 15px;
-    padding-top: 9px;
-    padding-bottom: 8px;
+    margin: 23px 0 22px 35px;
+    padding: 9px 15px 8px 15px;
     text-transform: uppercase;
     text-align: center;
   }
@@ -145,6 +150,8 @@
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    margin-top: 63px;
   }
 
   .subtitle {
@@ -153,13 +160,8 @@
     line-height: 26px;
     text-align: center;
     text-transform: none;
-  }
-
-  .advantages-title {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
+    margin: 0;
+    margin-top: 31px;
   }
 
 
@@ -172,8 +174,23 @@
     display: flex;
     width: 1200px;
     margin: 0;
+    margin-top: 90px;
     padding: 0;
     flex-wrap: wrap;
+  }
+
+  .advantages-title {
+    margin: 0;
+    margin-top: 92px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .advantages-description {
+    margin: 0;
+    margin-top: 30px;
   }
 
   .advantages-first {
@@ -183,11 +200,16 @@
     height: 768px;
   }
 
-  .block1 {
+  .advantages-first-block {
     width: 400px;
     height: 384px;
     background-color: #82B3D3;
     color: #ffffff;
+  }
+
+  .box {
+    margin: auto;
+    width: 230px;
   }
 
   .advantages-second {
@@ -195,6 +217,10 @@
     height: 384px;
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .advantages-second-block {
+    width: 400px;
     background-color: #82B3D3;
     color: #ffffff;
   }
@@ -205,16 +231,28 @@
     background-color: rgba(131, 179, 211, 0.12);
   }
 
+  .third-box {
+    margin-top: 103px;
+  }
+
   .advantages-fourth {
     width: 400px;
     height: 384px;
     background-color: rgba(131, 179, 211, 0.2);
   }
 
+  .fourth-box {
+    margin-top: 103px;
+  }
+
   .advantages-fifth {
     width: 400px;
     height: 384px;
     background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .fifth-box {
+    margin-top: 103px;
   }
 
   .benefits-list {
@@ -238,20 +276,31 @@
   }
 
   .benefits-first {
-    background-image: url("../images/house.svg");
     background-color:rgba(131, 179, 211, 0.12);
+    background-image: url("../images/house.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 80px;
+    background-position-x: center;
     width: 400px;
     height: 384px;
+  }
+
+  .benefits-first-box {
+    margin-top: 182px;
   }
 
   .benefits-second {
     background-image: url("../images/food.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: 80px;
+    background-position-x: center;
     width: 400px;
     height: 384px;
+  }
+
+  .benefits-second-box {
+    margin-top: 182px;
   }
 
   .benefits-third {
@@ -259,8 +308,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(131, 179, 211, 0.12);
+    background-position-y: 80px;
+    background-position-x: center;
     width: 400px;
     height: 384px;
+  }
+
+  .benefits-third-box {
+    margin-top: 182px;
   }
 
   .appointment {
@@ -270,6 +325,8 @@
   }
 
   .appointment-caption {
+    margin: 0;
+    padding-top: 91px;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -277,17 +334,20 @@
   }
 
   .appointment-text {
+    margin: 0;
+    margin-top: 29px;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
   }
 
   .appointment-link {
+    display: block;
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
-    width: 574px;
-    height: 60px;
+    width: 544px;
+    height: 36px;
     background-color: #756157;
     color: #ffffff;
     text-decoration: none;
@@ -295,6 +355,8 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 4px;
+    margin: auto;
+    margin-top: 68px;
   }
 
   .newsletter {
@@ -310,12 +372,20 @@
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    margin: 0;
+    padding-top: 94px;
   }
 
   .newsletter-text {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
+    margin: 0;
+    margin-top: 29px;
+  }
+
+  .newsletter-form {
+    margin-top: 46px;
   }
 
   .field {
