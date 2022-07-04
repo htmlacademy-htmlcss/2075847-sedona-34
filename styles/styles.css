@@ -49,11 +49,16 @@
  .navigation {
   display: flex;
   width: 1200px;
+  height: 65px;
   margin: 0 auto;
  }
 
  .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 490px;
   margin: 0;
+  margin-left: 30px;
   padding: 0;
  }
 
@@ -64,24 +69,44 @@
   .navigation-item {
     font-weight: 700;
     list-style-type: none;
-    width: 390px;
-    margin-left: 30px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   .navigation-link {
+    display: block;
+    padding: 20px 17px;
     text-decoration: none;
     color: #000000;
   }
 
   .navigation-user {
+    display: flex;
     font-weight: 700;
     color: #000000;
     list-style-type: none;
     width: 264px;
+    margin: 0;
+    padding: 0;
     margin-left: auto;
+    margin-right: 70px;
+    align-items: center;
   }
 
   .navigation-user-link {
+    display: block;
+    padding: 20px 17px;
+    text-decoration: none;
+    color: #000000;
+    min-width: 18px;
+    min-height: 18px;
+  }
+
+  .navigation-bottom-link {
+    display: block;
+    width: 130px;
+    justify-content: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -89,10 +114,13 @@
     border-radius: 4px;
     color: #ffffff;
     text-decoration: none;
-    padding: 15px;
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding: 9px 15px 8px 15px;
     text-transform: uppercase;
+    text-align: center;
+  }
+
+  .logo {
+    padding-top: 51px;
   }
 
   .main-container {
@@ -121,6 +149,8 @@
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    margin-top: 63px;
   }
 
   .subtitle {
@@ -129,17 +159,102 @@
     line-height: 26px;
     text-align: center;
     text-transform: none;
+    margin: 0;
+    margin-top: 31px;
+  }
+
+
+  .advantages-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    width: 1200px;
+    margin: 0;
+    margin-top: 90px;
+    padding: 0;
+    flex-wrap: wrap;
   }
 
   .advantages-title {
+    margin: 0;
+    margin-top: 92px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
   }
 
+  .advantages-description {
+    margin: 0;
+    margin-top: 30px;
+  }
 
-  .advantages-list {
+  .advantages-first {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 768px;
+  }
+
+  .advantages-first-block {
+    width: 400px;
+    height: 384px;
+    background-color: #82B3D3;
+    color: #ffffff;
+  }
+
+  .box {
+    margin: auto;
+    width: 230px;
+  }
+
+  .advantages-second {
+    width: 1200px;
+    height: 384px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .advantages-second-block {
+    width: 400px;
+    background-color: #82B3D3;
+    color: #ffffff;
+  }
+
+  .advantages-third {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .third-box {
+    margin-top: 103px;
+  }
+
+  .advantages-fourth {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.2);
+  }
+
+  .fourth-box {
+    margin-top: 103px;
+  }
+
+  .advantages-fifth {
+    width: 400px;
+    height: 384px;
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .fifth-box {
+    margin-top: 103px;
+  }
+
+  .benefits-list {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -159,53 +274,32 @@
     text-transform: uppercase;
   }
 
-  .advantages-first {
-    width: 400px;
-    height: 384px;
-    background-color: #82B3D3;
-    color: #ffffff;
-  }
-
-  .advantages-second {
-    width: 400px;
-    height: 384px;
-    background-color: #82B3D3;
-    color: #ffffff;
-  }
-
-  .advantages-third {
-    width: 400px;
-    height: 384px;
-    background-color: rgba(131, 179, 211, 0.12);
-  }
-
-  .advantages-fourth {
-    width: 400px;
-    height: 384px;
-    background-color: rgba(131, 179, 211, 0.2);
-  }
-
-  .advantages-fifth {
-    width: 400px;
-    height: 384px;
-    background-color: rgba(131, 179, 211, 0.12);
-  }
-
   .benefits-first {
-    background-image: url("../images/house.svg");
     background-color:rgba(131, 179, 211, 0.12);
+    background-image: url("../images/house.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: 80px;
+    background-position-x: center;
     width: 400px;
     height: 384px;
+  }
+
+  .benefits-first-box {
+    margin-top: 182px;
   }
 
   .benefits-second {
     background-image: url("../images/food.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: 80px;
+    background-position-x: center;
     width: 400px;
     height: 384px;
+  }
+
+  .benefits-second-box {
+    margin-top: 182px;
   }
 
   .benefits-third {
@@ -213,8 +307,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(131, 179, 211, 0.12);
+    background-position-y: 80px;
+    background-position-x: center;
     width: 400px;
     height: 384px;
+  }
+
+  .benefits-third-box {
+    margin-top: 182px;
   }
 
   .appointment {
@@ -224,6 +324,8 @@
   }
 
   .appointment-caption {
+    margin: 0;
+    padding-top: 91px;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -231,17 +333,20 @@
   }
 
   .appointment-text {
+    margin: 0;
+    margin-top: 29px;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
   }
 
   .appointment-link {
+    display: block;
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
-    width: 574px;
-    height: 60px;
+    width: 544px;
+    height: 36px;
     background-color: #756157;
     color: #ffffff;
     text-decoration: none;
@@ -249,6 +354,8 @@
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 4px;
+    margin: auto;
+    margin-top: 68px;
   }
 
   .newsletter {
@@ -264,12 +371,24 @@
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    margin: 0;
+    padding-top: 94px;
   }
 
   .newsletter-text {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
+    margin: 0;
+    margin-top: 29px;
+  }
+
+  .newsletter-form {
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    width: 800px;
+    margin: auto;
+    margin-top: 46px;
   }
 
   .field {
@@ -278,9 +397,11 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    border-radius: 4px;
+    border-radius: 10px 0 0 10px;
     border: none;
     background-color: #F2F2F2;
+    padding: 0;
+    padding-left: 22px;
   }
 
   .newsletter-button {
@@ -289,51 +410,79 @@
     line-height: 36px;
     background: #82B3D3;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 0 10px 10px 0;
     border: none;
     text-transform: uppercase;
     width: 200px;
     height: 60px;
+    padding: 0;
+  }
+
+  .page-footer {
+    width: 1200px;
+    height: 120px;
+    margin: auto;
   }
 
   .footer-container {
-    width: 1200px;
+    width: 1060px;
+    height: 120px;
     display: flex;
     margin: 0 auto;
+    align-items: center;
   }
 
   .footer-list {
     display: flex;
     margin: 0;
     padding: 0;
-    width: 142px;
-    margin-left: 70px;
+    min-width: 142px;
+    flex-wrap: wrap;
   }
 
   .footer-item {
+    display: flex;
     list-style-type: none;
-    width: 142px;
-    padding: 0 10px;
+    width: 47px;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer-contacts {
     width: 720px;
-    list-style-type: none;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
+    align-items: center;
   }
 
   .contacts-phone {
+    display: block;
+    font-weight: 400;
+    font-size: 40px;
     margin: 0 auto;
     color: #000000;
     text-decoration: none;
+    width: 331px;
   }
 
   .footer-htmlacademy {
-    margin-right: 70px;
+    margin: 0;
+    margin-left: auto;
     width: 115px;
-    list-style-type: none;
+  }
+
+  .htmlacademy-link {
+    display: block;
+    width: 115px;
+    height: 34px;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
