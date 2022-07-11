@@ -42,12 +42,13 @@
   flex-wrap: wrap;
   width: 490px;
   margin: 0;
-  margin-left: 30px;
+  margin-left: 239px;
   padding: 0;
  }
 
  .icon {
   margin-left: 70px;
+  position: absolute;
  }
 
  .navigation-item {
@@ -66,7 +67,7 @@
   color: #000000;
 }
 
-.navigation-link:hover {
+.navigation-link:hover, .navigation-link:focus {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -99,6 +100,25 @@
   text-decoration: none;
   width: 42px;
   height: 66px;
+}
+
+.thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #7DB54F;
+  border-radius: 50%;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 15px;
+  left: 24px;
+  box-sizing: border-box;
+  padding-top: 2.5px;
 }
 
 .navigation-icon {
