@@ -163,6 +163,12 @@
   height: 485px;
 }
 
+.logo-container2 {
+  background: url(../images/background-down.png) 1200px 57px;
+  height: 57px;
+  margin-top: 25px;
+}
+
 .logo {
   display: block;
   margin: 0 auto;
@@ -358,11 +364,20 @@
 }
 
 .appointment-text {
-  margin: 0;
+  margin: 0 auto;
   margin-top: 29px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  width: 592px;
+  height: 52px;
+  text-align: center;
+}
+
+.text-left {
+  display: inline-block;
+  width: 592px;
+  text-align: left;
 }
 
 .appointment-link {
@@ -380,7 +395,7 @@
   padding-bottom: 12px;
   border-radius: 4px;
   margin: auto;
-  margin-top: 68px;
+  margin-top: 54px;
 }
 
 .appointment-link:hover, .appointment-link:focus {
@@ -426,8 +441,7 @@
 }
 
 .field {
-  width: 600px;
-  height: 60px;
+  width: 578px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -436,6 +450,7 @@
   background-color: #F2F2F2;
   padding: 0;
   padding-left: 22px;
+  font-family: "PT Sans", sans-serif;
 }
 
 .newsletter-button {
@@ -450,6 +465,8 @@
   width: 200px;
   height: 60px;
   padding: 0;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
 }
 
 .newsletter-button:hover, .newsletter-button:focus {
@@ -465,15 +482,17 @@
 .page-footer {
   width: 1200px;
   height: 120px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .footer-container {
   width: 1060px;
-  height: 120px;
-  display: flex;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 184px 720px 156px;
   margin: 0 auto;
   align-items: center;
+  margin-top: 40px;
 }
 
 .footer-list {
@@ -485,7 +504,7 @@
 }
 
 .footer-item {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .footer-social-item {
@@ -498,13 +517,13 @@ list-style-type: none;
 }
 
 .social-icon {
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-margin: auto;
-fill: #83B3D3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #83B3D3;
 }
 
 .social-icon:hover, .social-icon:focus {
@@ -516,19 +535,16 @@ fill: #83B3D3;
 }
 
 .footer-contacts {
-  width: 720px;
-  margin: 0;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .contacts-phone {
-  display: block;
   font-weight: 400;
   font-size: 40px;
-  margin: 0 auto;
   color: #000000;
   text-decoration: none;
   width: 331px;
+  line-height: 40px;
 }
 
 .contacts-phone:hover, .contacts-phone:focus {
