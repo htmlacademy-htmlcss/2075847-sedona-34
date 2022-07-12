@@ -40,7 +40,7 @@
  .navigation {
   display: flex;
   width: 1200px;
-  height: 65px;
+  min-height: 65px;
   margin: 0 auto;
  }
 
@@ -187,7 +187,7 @@
 .logo-container {
   background-image: url(../images/index-background.jpg);
   background-repeat: no-repeat;
-  height: 485px;
+  height: 100%;
 }
 
 .logo-container2 {
@@ -238,7 +238,6 @@
 
 .advantages-title {
   margin: 0;
-  margin-top: 92px;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -254,14 +253,19 @@
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
-  height: 768px;
+  min-height: 768px;
 }
 
 .advantages-first-block {
-  width: 400px;
-  height: 384px;
+  width: 1200px;
+  min-height: 384px;
+  display: flex;
   background-color: #82B3D3;
   color: #ffffff;
+}
+
+.picture1 {
+  height: 100%;
 }
 
 .box {
@@ -271,20 +275,21 @@
 
 .advantages-second {
   width: 1200px;
-  height: 384px;
-  display: flex;
-  flex-direction: row-reverse;
+  min-height: 384px;
 }
 
 .advantages-second-block {
-  width: 400px;
+  width: 1200px;
   background-color: #82B3D3;
   color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 .advantages-third {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -294,7 +299,7 @@
 
 .advantages-fourth {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -304,7 +309,7 @@
 
 .advantages-fifth {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -339,7 +344,7 @@
   background-position-y: 80px;
   background-position-x: center;
   width: 400px;
-  height: 384px;
+  min-height: 384px;
 }
 
 .benefits-first-box {
@@ -353,7 +358,7 @@
   background-position-y: 80px;
   background-position-x: center;
   width: 400px;
-  height: 384px;
+  min-height: 384px;
 }
 
 .benefits-second-box {
@@ -368,7 +373,7 @@
   background-position-y: 80px;
   background-position-x: center;
   width: 400px;
-  height: 384px;
+  min-height: 384px;
 }
 
 .benefits-third-box {
@@ -377,7 +382,7 @@
 
 .appointment {
   width: 1200px;
-  height: 417px;
+  min-height: 417px;
   text-align: center;
 }
 
@@ -397,7 +402,7 @@
   font-size: 22px;
   line-height: 26px;
   width: 592px;
-  height: 52px;
+  min-height: 52px;
   text-align: center;
 }
 
@@ -423,6 +428,7 @@
   border-radius: 4px;
   margin: auto;
   margin-top: 54px;
+  margin-bottom: 93px;
 }
 
 .appointment-link:hover, .appointment-link:focus {
@@ -437,7 +443,7 @@
 .newsletter {
   color: #ffffff;
   width: 1200px;
-  height: 411px;
+  min-height: 411px;
   text-align: center;
   background-image: url(../images/background.jpg);
 }
@@ -478,6 +484,7 @@
   padding: 0;
   padding-left: 22px;
   font-family: "PT Sans", sans-serif;
+  margin-bottom: 94px;
 }
 
 .newsletter-button {
@@ -494,6 +501,7 @@
   padding: 0;
   text-align: center;
   font-family: "PT Sans", sans-serif;
+  margin-bottom: 94px;
 }
 
 .newsletter-button:hover, .newsletter-button:focus {
@@ -508,13 +516,13 @@
 
 .page-footer {
   width: 1200px;
-  height: 70px;
+  min-height: 70px;
   margin: 0 auto;
 }
 
 .footer-container {
   width: 1060px;
-  height: 50px;
+  min-height: 50px;
   display: grid;
   grid-template-columns: 184px 720px 156px;
   margin: 0 auto;
