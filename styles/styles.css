@@ -185,7 +185,7 @@
 }
 
 .logo-container {
-  background-image: url(../images/divider.png), url(../images/index-background.jpg);
+  background-image: url("../images/divider.png"), url("../images/index-background.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: 0 calc(100% + 1px), 0;
   background-size: auto, cover;
@@ -444,7 +444,7 @@
   width: 1200px;
   min-height: 411px;
   text-align: center;
-  background-image: url(../images/background.jpg);
+  background-image: url("../images/background.jpg");
 }
 
 .newsletter-title {
