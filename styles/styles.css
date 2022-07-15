@@ -185,20 +185,19 @@
 }
 
 .logo-container {
-  background-image: url(../images/index-background.jpg);
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.logo-container2 {
-  background: url(../images/background-down.png) 1200px 57px;
-  height: 57px;
-  margin-top: 25px;
+  background-image: url(../images/divider.png), url(../images/index-background.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 calc(100% + 1px), 0;
+  background-size: auto, cover;
+  background-color: #000000;
+  min-height: 485px;
 }
 
 .logo {
   display: block;
   margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .subject {
