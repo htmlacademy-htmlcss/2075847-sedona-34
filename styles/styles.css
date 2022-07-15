@@ -75,7 +75,11 @@
 }
 
 .navigation-link:hover, .navigation-link:focus {
-  background-color: rgba(131, 179, 211, 0.12);
+  color: #756157;
+}
+
+.navigation-link:active {
+  color:rgba(117, 97, 87, 0.3);
 }
 
 .navigation-link-current::before {
