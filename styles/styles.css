@@ -74,7 +74,8 @@
   color: #000000;
 }
 
-.navigation-link:hover, .navigation-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: #756157;
 }
 
@@ -142,7 +143,8 @@
   fill:#000000;
 }
 
-.navigation-icon:hover, .navigation-icon:focus {
+.navigation-icon:hover,
+.navigation-icon:focus {
   fill:#756157;
 }
 
@@ -166,7 +168,8 @@
   margin-left: 20px;
 }
 
-.navigation-button-link:hover, .navigation-button-link:focus {
+.navigation-button-link:hover,
+.navigation-button-link:focus {
   background-color: #615048;
 }
 
@@ -439,7 +442,8 @@
   margin-bottom: 93px;
 }
 
-.appointment-link:hover, .appointment-link:focus {
+.appointment-link:hover,
+.appointment-link:focus {
   background-color: #615048;
 }
 
@@ -513,7 +517,8 @@
   margin-bottom: 94px;
 }
 
-.newsletter-button:hover, .newsletter-button:focus {
+.newsletter-button:hover,
+.newsletter-button:focus {
   background-color:#68A2CA;
   cursor: pointer;
 }
@@ -570,7 +575,8 @@
   fill: #83B3D3;
 }
 
-.social-icon:hover, .social-icon:focus {
+.social-icon:hover,
+.social-icon:focus {
   fill: #68A2CA;
 }
 
@@ -591,7 +597,8 @@
   line-height: 40px;
 }
 
-.contacts-phone:hover, .contacts-phone:focus {
+.contacts-phone:hover,
+.contacts-phone:focus {
   color: #756157;
 }
 
@@ -622,7 +629,8 @@
   fill: #000000;
 }
 
-.htmlacademy-icon:hover, .htmlacademy-icon:focus {
+.htmlacademy-icon:hover,
+.htmlacademy-icon:focus {
   fill: #756157;
 }
 
